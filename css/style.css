@@ -162,7 +162,7 @@ body {
     border-bottom: 2px solid var(--bs-primary);
 }
 
-
+    /* it takes two */
 
 .it_takes_two {
     background-image: url(../img/it-takes-two-hero-banner-desktop.jpg);
@@ -171,4 +171,21 @@ body {
     background-position: center;
     box-sizing: border-box;
     color: white;
+}
+
+    /* new release */
+
+.new_release {
+    background-color: #1f1f1f;
+    color: var(--bs-white);
+}
+
+.game_name {
+    font-size: 13px;
+}
+
+@media screen and (min-width: 768px) {
+    .game_name {
+        font-size: 1rem;
+    }
 }
