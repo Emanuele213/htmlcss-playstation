@@ -196,13 +196,31 @@ body {
 
     /* playstaion 4 e accessori */
 
-.playstatin_4 .my_btn_main {
+.playstation_4 .my_btn_main {
     background-color: var(--bs-primary);
 }
 
-.playstatin_4 .bnt_container_main:hover {
+.playstation_4 .bnt_container_main:hover {
     padding: 2px;
     box-shadow: 0 0 0 2px var(--bs-primary);
     outline: none;
     border-radius: 2rem;
+}
+
+    /* playstation plus */
+
+.p_plas {
+    background-color: #bebcbb;
+}
+
+.p_plas .bnt_container_main:hover {
+    padding: 2px;
+    box-shadow: 0 0 0 2px #d9dadc;
+    outline: none;
+    border-radius: 2rem;
+}
+
+.p_plas .my_btn_main {
+    color: var(--bs-primary);
+    background-color: #d9dadc;
 }
