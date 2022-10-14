@@ -145,3 +145,17 @@ body {
     outline: none;
     border-radius: 2rem;
 }
+
+.bt_main .overlay {
+    border: 0;
+    border-radius: 0;
+    box-shadow: 0 0 0 0;
+    border-bottom: 2px solid var(--bs-primary);
+}
+
+.bt_main .bl_card:hover {
+    border: 0;
+    border-radius: 0;
+    box-shadow: 0 0 0 0;
+    border-bottom: 2px solid var(--bs-primary);
+}
