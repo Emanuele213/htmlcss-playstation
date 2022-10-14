@@ -180,6 +180,10 @@ body {
     color: var(--bs-white);
 }
 
+.nr_card {
+    overflow: hidden;
+}
+
 .game_name {
     font-size: 13px;
 }
@@ -188,4 +192,17 @@ body {
     .game_name {
         font-size: 1rem;
     }
+}
+
+    /* playstaion 4 e accessori */
+
+.playstatin_4 .my_btn_main {
+    background-color: var(--bs-primary);
+}
+
+.playstatin_4 .bnt_container_main:hover {
+    padding: 2px;
+    box-shadow: 0 0 0 2px var(--bs-primary);
+    outline: none;
+    border-radius: 2rem;
 }
