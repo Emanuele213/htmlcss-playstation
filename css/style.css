@@ -119,8 +119,10 @@ body {
     box-shadow: 0 0 0 1px var(--bs-primary);
 }
 
+    /* section playstation_5 */
+
 .title_play {
-    font-size: 2.5rem;
+    font-size: 2.2rem;
 }
 
 .blue_color {
@@ -158,4 +160,15 @@ body {
     border-radius: 0;
     box-shadow: 0 0 0 0;
     border-bottom: 2px solid var(--bs-primary);
+}
+
+
+
+.it_takes_two {
+    background-image: url(../img/it-takes-two-hero-banner-desktop.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    box-sizing: border-box;
+    color: white;
 }
