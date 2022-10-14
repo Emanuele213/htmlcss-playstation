@@ -68,14 +68,30 @@
 	overflow: hidden;
 }
 
-.prova {
-    border-radius: 2rem;
+.img_radius {
+    border-radius: 1rem;
 }
 
 .bl_card:hover {
 	padding: 2px;
     border: 4px solid var(--bs-primary);
-    border-radius: 2rem;
+    border-radius: 1rem;
     box-shadow: 0 0 0 1px var(--bs-primary);
     outline: none;
+}
+
+.title_play {
+    font-size: 2.5rem;
+}
+
+.blue_color {
+    color: var(--bs-primary);
+}
+
+.grey_color {
+    color: var(--bs-gray);
+}
+
+.play_card {
+    overflow: hidden;
 }
