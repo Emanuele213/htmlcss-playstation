@@ -231,3 +231,10 @@ body {
 
     /* playstation now */
 
+.ps_now {
+    background-color: #161c3b;
+}
+
+/* .ps_now .bnt_container_main .my_btn_main {
+    color: white;
+} */
