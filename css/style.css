@@ -234,3 +234,25 @@ body {
 .ps_now {
     background-color: #161c3b;
 }
+
+    /* footer blue */
+
+.blue_footer {
+    background-color: var(--bs-primary);
+    color: white;
+}
+
+.text_size {
+    font-size: .8rem;
+}
+
+ul {
+    list-style: none;
+}
+
+@media screen and (min-width: 320px ) and (max-width: 768px) {
+    .column_footer {
+        display: flex;
+        flex-direction: column;
+    }
+}
